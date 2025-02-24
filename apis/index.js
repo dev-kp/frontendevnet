@@ -1,4 +1,4 @@
-const defaultUrl = 'http://localhost:5000';
+const defaultUrl = 'https://eventmanagement-i9za.onrender.com';
 
 export const CreateUser = `${defaultUrl}/users/register`
 export const LoginUser = `${defaultUrl}/users/login`
