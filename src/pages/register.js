@@ -68,7 +68,7 @@ const Register = () => {
                     localStorage.setItem('token', response.data.token);
 
                     // Redirect to a protected page (e.g., dashboard)
-                    router.push('/dashboard');
+                    router.push('/login');
                 } else {
                     alert('Registration successful, but no token received.');
                 }
